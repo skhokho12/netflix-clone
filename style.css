@@ -1,0 +1,390 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#000;
+}
+
+/* HERO*/
+
+.hero{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.75)
+    ),
+    url("assets/bg-image.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 8%;
+}
+
+.logo{
+
+    color:#e50914;
+
+    font-size:3.5rem;
+
+    font-weight:bold;
+}
+
+.sign-in-btn{
+
+    background:#e50914;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 20px;
+
+    
+    border-radius:4px;
+    font-weight: bold;
+
+    font-size:20px;
+    /* border:3px solid black;
+    outline: 4px solid white; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.sign-in-btn:hover{
+
+    background:#c11119;
+}
+
+/* HERO CONTENT*/
+
+.hero-content{
+
+    height:80vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.hero-content h1{
+
+    font-size:4rem;
+
+    font-weight:900;
+
+    line-height:1.1;
+
+    margin-bottom:20px;
+}
+
+.hero-content h3{
+
+    font-size:1.5rem;
+
+    font-weight:600;
+
+    margin-bottom:30px;
+}
+
+.hero-content p{
+
+    font-size:1.25rem;
+
+    margin-bottom:20px;
+}
+
+/* SVG STYLES */
+.svg1 {
+   position: relative;
+   left: 170px; 
+   bottom: -50px;
+}
+
+.svg2 {
+   position: relative;
+   left: 170px; 
+   bottom: -15px;
+}
+
+.svg3 {
+   position: relative;
+   left: 170px; 
+   bottom: -80px;
+}
+
+.svg4 {
+   position: relative;
+   left: 170px; 
+   bottom: -20px;
+}
+
+
+/* EMAIL FORM*/
+
+.email-form{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+}
+
+.email-form input{
+
+    width:360px;
+
+    padding:18px;
+
+    background:rgba(22,22,22,.7);
+
+    border:1px solid #777;
+
+    border-radius:4px;
+
+    color:white;
+
+    font-size:1rem;
+}
+
+.email-form input::placeholder{
+
+    color:#b3b3b3;
+}
+
+.email-form button{
+    background:#e50914;
+
+    color:white;
+
+    /* border:none; */
+
+    padding:18px 28px;
+
+    border-radius:4px;
+
+    font-size:1.4rem;
+
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+.email-form button:hover{
+
+    background:#c11119;
+}
+
+.gt {
+    margin-left: 15px;
+}
+
+.video-section {
+    background: #000;
+    color: #fff;
+
+    padding: 80px 8%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.video-section video {
+    width: 100%;
+    max-width: 900px;
+
+    border-radius: 12px;
+
+    border: 2px solid #333;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+
+
+
+
+/* reasons to join styles */
+
+
+.reasons{
+    background:#000;
+    color:#fff;
+    padding:70px 8%;
+}
+
+.reasons h2{
+    font-size:2rem;
+    margin-bottom:30px;
+}
+
+.reason-container{
+
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+.reason-card{
+
+    width:280px;
+    min-height:280px;
+
+    padding:25px;
+
+    border-radius:16px;
+
+    background:linear-gradient(
+        180deg,
+        #1c1635,
+        #1b223f,
+        #1a1630
+    );
+
+    position:relative;
+}
+
+.reason-card h3{
+
+    font-size:1.5rem;
+
+    margin-bottom:20px;
+}
+
+.reason-card p{
+
+    color:#cfcfcf;
+
+    line-height:1.6;
+}
+
+.icon{
+
+    position:absolute;
+
+    bottom:20px;
+    right:20px;
+
+    font-size:55px;
+
+    color:#d81f4b;
+}
+
+
+
+/* FAQ Section */
+
+.faq {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.faq details {
+    width: 80%;
+    max-width: 1800px;
+    margin: 0 auto 10px;
+
+    background-color: rgb(45, 45, 45);
+
+    padding: 35px;
+
+    border-radius: 4px;
+}
+
+.faq summary {
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.faq details:hover {
+background-color: rgb(60, 60, 60);
+}
+
+
+.faq p {
+    margin-top: 15px;
+    line-height: 1.6;
+    color: rgb(220, 220, 220);
+    font-size: 1.8rem;
+}
+
+
+.trending{
+    background:#000;
+    color:#fff;
+    padding:60px 8%;
+}
+
+.trending h2{
+    font-size:2rem;
+    margin-bottom:25px;
+}
+
+.movie-row{
+    display:flex;
+    gap:20px;
+    overflow-x:auto;
+    padding-bottom:20px;
+}
+
+.movie-row img{
+    width:220px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.movie-row img:hover{
+    transform:scale(1.08);
+}
