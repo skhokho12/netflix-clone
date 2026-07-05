@@ -29,7 +29,7 @@ body{
     color:white;
 }
 
-/* NAVBAR */
+/* Navigation */
 
 .navbar{
 
@@ -60,14 +60,9 @@ body{
     text-decoration:none;
 
     padding:12px 20px;
-
-    
     border-radius:4px;
     font-weight: bold;
-
     font-size:20px;
-    /* border:3px solid black;
-    outline: 4px solid white; */
 }
 
 a {
@@ -79,7 +74,7 @@ a {
     background:#c11119;
 }
 
-/* HERO CONTENT*/
+/* HERO styles*/
 
 .hero-content{
 
@@ -125,7 +120,7 @@ a {
     margin-bottom:20px;
 }
 
-/* SVG STYLES */
+/* SVG styles */
 .svg1 {
    position: relative;
    left: 170px; 
@@ -314,7 +309,7 @@ a {
 
 
 
-/* FAQ Section */
+/* FAQ styles section*/
 
 .faq {
     background-color: #000;
@@ -360,6 +355,7 @@ background-color: rgb(60, 60, 60);
 }
 
 
+/* trending styles section */
 .trending{
     background:#000;
     color:#fff;
