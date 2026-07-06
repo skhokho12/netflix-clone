@@ -156,7 +156,7 @@ a {
 
     gap:10px;
 
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
 }
 
 .email-form input{
