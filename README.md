@@ -2,16 +2,11 @@
 
 A responsive Netflix landing page clone built using HTML and CSS. This project recreates the look and feel of the Netflix homepage for learning and practice purposes.
 
-## 📸 Screenshot
-
-(Add a screenshot of your project here)
-
 ## 🚀 Live Demo
 
-(Add your deployed website link here)
+(deployed website link)
 
-Example:
-https://your-project.netlify.app
+https://vusim-netlix-clone.netlify.app/
 
 ## ✨ Features
 - Responsive design
