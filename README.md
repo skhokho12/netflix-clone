@@ -27,7 +27,7 @@ https://your-project.netlify.app
 
 ## 📂 Folder Structure
 ```
-netflix-clone/
+assignment-netflix/
 │
 ├── assets/
 ├── index.html
